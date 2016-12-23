@@ -31,7 +31,7 @@ defmodule PhoenixEcto.Mixfile do
 
   defp deps do
     [{:phoenix_html, "~> 2.9"},
-     {:ecto, "~> 2.1"},
+     {:ecto, github: "ghalle/ecto"},
      {:plug, "~> 1.0"}]
   end
 end
